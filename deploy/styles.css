@@ -173,11 +173,12 @@ input[type=text]{
 }
 
 #btn{
+    outline: none;
     align-self: auto;
 }
 
 #enc{
-
+    outline: none;
     border-radius: 14px;
     box-sizing: border-box;
     float: left;
@@ -187,6 +188,7 @@ input[type=text]{
     margin-left: 30%;
 }
 #dec{
+    outline: none;
     box-sizing: border-box;
     float: right;
     
@@ -228,3 +230,12 @@ input[type=text]{
     color: antiquewhite;
 }
 
+#encrypting{
+    outline: none;
+}
+#decrypting{
+    outline: none;
+}
+#key{
+    outline: none;
+}
