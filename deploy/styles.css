@@ -16,6 +16,7 @@
 }
 
 body {
+    outline: none;
     
     background-image: url('newbg.png');
 }
@@ -176,8 +177,11 @@ input[type=text]{
 }
 
 #enc{
+
+    border-radius: 14px;
     box-sizing: border-box;
     float: left;
+    
     
     margin-top: 20px;margin-bottom: 20px;
     margin-left: 30%;
